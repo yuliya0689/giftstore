@@ -1,0 +1,16 @@
+.cards__link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration: none;
+  color: black;
+  padding-right: 7px;
+  margin-left: 24px;
+  background: url(../../../images/more.jpg) right 6px no-repeat;
+  transition: padding-right .2s linear;
+}
+
+.cards__link:hover {
+  padding-right: 10px;
+}

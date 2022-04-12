@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Giftstore</title>
+</head>
+<body>
+  <div class="page">
+    <!--header start-->
+    <header class="header">
+      <!--В logo на фоне черная картинка-->
+      <div class="logo">
+        <!--В logo__link на фоне желтая картинка, изначально opacity: 0-->
+        <!--При наведении на logo__link opacity: 1-->
+        <a href="/" class="logo__link"></a>
+      </div>
+      <nav>
+        <ul class="menu menu_place_header">
+          <li class="menu__item"><a href="#!" class="menu__link">Home</a></li>
+          <li class="menu__item"><a href="#!" class="menu__link">About Us</a></li>
+          <li class="menu__item"><a href="#!" class="menu__link">Services</a></li>
+          <li class="menu__item"><a href="#!" class="menu__link">Blogs</a></li>
+        </ul>
+      </nav>
+      <a href="#!" class="button button_size_s button_color_yellow">Gift Finder</a>
+    </header>
+    <!--header end-->
+    <!--media start-->
+    <section class="media">
+      <ul class="media__cards">
+        <li class="media__card media__card_content_text-1">
+          <h1 class="media__title">Find a gift for your wife or girlfriend</h1>
+          <p class="media__subtitle">
+            Struggling to find a gift for your wife or girlfriend? No problem!
+          </p>
+          <a href="#!" class="button button_color_white">Find gift now</a>
+        </li>
+        <li class="media__card">
+          <img src="images/media-1.jpg" alt="Happy girl." class="media__card-img">
+        </li>
+        <li class="media__card">
+          <img src="images/media-2.jpg" alt="The card 'Thanks'." class="media__card-img">
+        </li>
+        <li class="media__card media__card_content_text-2">
+          <h2 class="media__title media__title_marg_23">How we work</h2>
+          <p class="media__subtitle media__subtitle_marg_35">
+            We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.
+          </p>
+          <a href="#!" class="button button_color_yellow">Learn More</a>
+        </li>
+      </ul>
+    </section>
+    <!--media end-->
+    <!--occasions start-->
+    <section class="occasions">
+      <h2 class="title">Gifts for all Occasions</h2>
+      <p class="subtitle">Try our web app to find the best gifts for all occasions</p>
+      <ul class="cards">
+        <li class="cards__card">
+          <img src="/images/occasions-birthday.jpg" alt="" class="cards__img">
+          <h3 class="cards__title">Birthday</h3>
+          <a href="#!" class="cards__link">See More</a>
+        </li>
+        <li class="cards__card">
+          <img src="/images/occasions-anniversary.jpg" alt="" class="cards__img">
+          <h3 class="cards__title">Anniversary</h3>
+          <a href="#!" class="cards__link">See More</a>
+        </li>
+        <li class="cards__card">
+          <img src="/images/occasions-valentine.jpg" alt="" class="cards__img">
+          <h3 class="cards__title">Valentine's Day</h3>
+          <a href="#!" class="cards__link">See More</a>
+        </li>
+        <li class="cards__card">
+          <img src="/images/occasions-christmas.jpg" alt="" class="cards__img">
+          <h3 class="cards__title">Christmas</h3>
+          <a href="#!" class="cards__link">See More</a>
+        </li>
+      </ul>
+    </section>
+    <!--occasions end-->
+    <!--sign start-->
+    <section class="sign">
+      <div class="two-columns">
+        <div class="two-columns__column">
+          <p class="two-columns__title">Ready to get started?</p>
+          <p class="two-columns__subtitle">Sign up or contact us</p>
+        </div>
+        <div class="two-columns__column two-columns__column_content_flex-button">
+          <a href="#!" class="button button_color_black">Find gift now</a>
+          <a href="#!" class="button">how it works</a>
+        </div>
+      </div>
+    </section>
+    <!--sign end-->
+    <!--blogs start-->
+    <section class="blogs">
+      <h2 class="title">Our Best Blogs Ever</h2>
+      <p class="subtitle">Try our blog to find the best tips and tricks to select your gift</p>
+      <div class="best-blog">
+        <p class="best-blog__author">Mr. John Doe</p>
+        <h2 class="best-blog__title">The best way to wish your wife</h2>
+        <a href="#!" class="best-blog__link">Read More</a>
+      </div>
+      <ul class="blog-cards">
+        <li class="blog-cards__blog-card">
+          <h3 class="blog-cards__title">Database to find the gifts for your girlfriend</h3>
+          <p class="blog-cards__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          <a href="#!"  class="blog-cards__link">Read More</a>
+        </li>
+        <li class="blog-cards__blog-card">
+          <h3 class="blog-cards__title">How Artificial Intelligence read your mind to find the best gift</h3>
+          <p class="blog-cards__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+          <a href="#!"  class="blog-cards__link">Read More</a>
+        </li>
+      </ul>
+    </section>
+    <!--blogs end-->
+    <!--footer start-->
+    <footer class="footer">
+      <nav>
+        <ul class="menu menu_place_footer">
+          <li class="menu__item"><a href="#!" class="menu__link">Home</a></li>
+          <li class="menu__item"><a href="#!" class="menu__link">About</a></li>
+          <li class="menu__item">
+            <!--Модификатор type подменяет картинки:
+            желта - по дефолту, черная - при наведении-->
+            <div class="menu__link logo logo_type_footer">
+              <a href="/" class="logo__link logo__link_type_footer"></a>
+            </div>
+          </li>
+          <li class="menu__item"><a href="#!" class="menu__link">Services</a></li>
+          <li class="menu__item"><a href="#!" class="menu__link">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="footer__line"></div>
+      <nav>
+        <ul class="socials">
+          <li class="socials__item">
+            <a href="!#" class="socials__link">
+              <img src="./images/svg/entypo-social_facebook-with-circle.svg" alt="" class="socials__ico">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="!#" class="socials__link">
+              <img src="./images/svg/entypo-social_twitter-with-circle.svg" alt="" class="socials__ico">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="!#" class="socials__link">
+              <img src="./images/svg/entypo-social_instagram-with-circle.svg" alt="" class="socials__ico">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="!#" class="socials__link">
+              <img src="./images/svg/entypo-social_youtube-with-circle.svg" alt="" class="socials__ico">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a href="!#" class="socials__link">
+              <img src="./images/svg/entypo-social_pinterest-with-circle.svg" alt="" class="socials__ico">
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__copyright">
+        <span class="footer__years">&#169 2010 — 2020</span>
+        <span class="footer__org">Privacy — Terms</span>
+      </div>
+    </footer>
+    <!--footer end-->
+  </div>
+</body>
+</html>

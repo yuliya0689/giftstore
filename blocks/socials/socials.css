@@ -1,0 +1,11 @@
+.socials {
+  margin: 0 0 70px 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.socials__ico:hover {
+  transform: scale(1.3);
+}

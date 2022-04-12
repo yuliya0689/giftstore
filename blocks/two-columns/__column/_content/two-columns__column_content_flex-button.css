@@ -1,0 +1,6 @@
+.two-columns__column_content_flex-button {
+  width: 416px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

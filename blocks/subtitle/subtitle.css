@@ -1,0 +1,15 @@
+.subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.subtitle::before {
+  content: '“';
+}
+
+.subtitle::after {
+  content: '”';
+}

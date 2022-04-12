@@ -1,0 +1,15 @@
+.logo__link {
+  display: inline-block;
+  width: 41px;
+  height: 39px;
+  background: url(../../../images/svg/logo-footer.svg) white 0 0 no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s linear;
+}
+
+.logo__link:hover {
+  opacity: 1;
+}

@@ -1,0 +1,7 @@
+.socials__ico {
+  width: 39px;
+  height: 39px;
+  object-fit: cover;
+  float: left;
+  transition: transform .8s ease;
+}

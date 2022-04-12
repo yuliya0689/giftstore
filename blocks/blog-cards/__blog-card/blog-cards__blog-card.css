@@ -1,0 +1,9 @@
+.blog-cards__blog-card {
+  margin-top: 40px;
+  padding: 48px 48px 70px;
+  position: relative;
+}
+
+.blog-cards__blog-card:hover {
+  box-shadow: 10px 10px 15px #FAFAFA;
+}
